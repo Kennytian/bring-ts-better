@@ -1,0 +1,17 @@
+{
+  "name": "bring-ts-better",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "decorators": "ts-node-dev --respawn --transpile-only --quiet ./src/decorators.ts",
+    "metadata": "ts-node-dev --respawn --transpile-only --quiet ./src/metadata.ts"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
