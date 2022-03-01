@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "decorators": "ts-node-dev --respawn --transpile-only --quiet ./src/decorators.ts",
+    "extract-utility": "ts-node-dev --respawn --transpile-only --quiet ./src/extract-utility.ts",
+    "conditional-types": "ts-node-dev --respawn --transpile-only --quiet ./src/conditional-types.ts",
     "metadata": "ts-node-dev --respawn --transpile-only --quiet ./src/metadata.ts"
   },
   "dependencies": {
